@@ -44,3 +44,16 @@ Start Consumer:
 Duplicate the session & enter in a new console --
 cd kafka_2.12-3.3.1
 bin/kafka-console-consumer.sh --topic demo --bootstrap-server 18.219.40.23:9092
+
+Key Steps:
+-------------------------------
+* Start with the consumer code 
+* Then, run the producer code
+
+Web you need:
+-------------------------------
+*s3
+*AWS Glue
+*athena query
+*e2
+*Python jupyter
